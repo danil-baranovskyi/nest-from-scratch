@@ -1,11 +1,10 @@
-import {Column, PrimaryGeneratedColumn} from "typeorm";
+import { Column, Entity, PrimaryGeneratedColumn } from "typeorm";
 
+@Entity()
 export class Report {
   @PrimaryGeneratedColumn("increment")
   id: number;
 
   @Column()
-  @Column()
-  @Column()
-  @Column()
+  price: number;
 }
