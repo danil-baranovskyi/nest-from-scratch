@@ -6,7 +6,7 @@ import {
   Param,
   Patch,
   Post,
-  Query, Session, UseGuards, UseInterceptors
+  Query, Session, UseGuards,
 } from '@nestjs/common';
 import { CreateUserDto } from './dtos/create-user.dto';
 import { UsersService } from './users.service';
